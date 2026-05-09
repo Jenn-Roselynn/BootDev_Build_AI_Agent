@@ -1,0 +1,19 @@
+[project]
+name = "BootDev_Custom_Gemni_AI_Agent_Development"
+version = "0.1.0"
+description = "A Python-based AI agent utilizing the Google Gemini API"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-cloud-aiplatform>=1.115.0",
+    "google-genai==1.12.1",
+    "halo>=0.0.31",
+    "openai>=2.34.0",
+    "python-dotenv==1.1.0",
+    "rich>=15.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.12",
+]
